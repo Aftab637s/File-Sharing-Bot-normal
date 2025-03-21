@@ -10,29 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = "5995220995:AAE1vafRc7IwU8I4GYI2TOICnakiPhJvqIs"
+TG_BOT_TOKEN = "7805730171:AAFIe25lJ0BmvnIrj9s_zlxFGzgyTNO5y-Q"
 
 #Your API ID from my.telegram.org
-APP_ID = 24237243
+APP_ID = "21316774"
 
 #Your API Hash from my.telegram.org
-API_HASH = "c7dad6597c88f034d5c360d8a0320869"
+API_HASH = "50f64c71c78a34a85dad33fb78fc6c33"
 
 #Your db channel Id
-CHANNEL_ID = -1001800818629
+CHANNEL_ID = "-1002693895119"
 
 #OWNER ID
-OWNER_ID = 1842325240
+OWNER_ID = "7954762405"
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://bot:HX9sva9z4s8VDOzR@cluster.pgjq3f6.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://surajkunaar555333:HXYCnoobDezHh6kc@cluster0.e0qih.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "Cluster"
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = -1001616325506
+FORCE_SUB_CHANNEL = -1002349785484
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
